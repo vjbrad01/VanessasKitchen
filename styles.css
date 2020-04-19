@@ -1,0 +1,24 @@
+.cookbook {;
+    width: 100%;
+    filter: blur(100%);
+    background-image: linear-gradient(20%);
+}
+
+h1 {
+    color: blue;
+    text-align:  center;
+    font-size:  100px;
+}
+
+body {
+    background-color: #FFF;
+}
+
+.gallery {
+    padding: 10px 20px;
+    background-color: purple;
+}
+
+p {
+    color: black;
+}
