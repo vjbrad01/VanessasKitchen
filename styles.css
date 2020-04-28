@@ -14,7 +14,7 @@ a {
 
 .container {
     width: 70%;
-    margins: 0 augo;
+    margins: 0 auto;
 }
 
 .main-header {
@@ -26,6 +26,23 @@ h2 {
     color: blue;
 }
 
-li {
-    list-style-type:  none;
+div.photos {
+    margin: 5px;
+    border: 10px solid red;
+    float:  left;
+    width: 180px;
+}
+
+div.photos:hover {
+    border: 25px solid red;
+}
+
+div.photos img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding:  15px;
+    text-align: left;
 }
