@@ -7,43 +7,76 @@
 </head>
 <body>
     <!-- START OF HEADER -->
-    <header class="main-header">
-      <div class="container">
-        <h1 class="name"><a href="#">Vanessa's Kitchen</a></h1>
-        <ul class="main-nav">
-           <li><a href="#">Home</a></li>
-           <li><a href="#">Tips</a></li>
-        </ul>
+    <header>
+        <!-- LINK THAT LINKS TO HOME PAGE -->
+        <a href="index.html" id="logo">
+          <h1>Vanessa's Kitchen</h1>
+        </a>
+        
+        <nav>
+           <a href="#">Home</a>
+           <a href="#">Tips</a>
+        </nav>
         <img class="cookbook" src="img/Moms cook book.jpg" alt="Mother's cookbook">
-      </div>
     </header>
     <!-- END OF HEADER -->
     
     
     <!-- START OF GALLERY -->
-    <div id="photos">
-      <h2>Recipes</h2>  
-      <a href="img/Appetizer Recipe.jpg"><img src="img/Appetizer Cream Cheese with Red Pepper Jelly.jpg">
-      </a>
-      <div class="desc">Cream Cheese with Red Pepper Jelly</div>
+  <div id="main">
+      
+    <h2>Recipes</h2>
+    <p>A sampling of recipes that will get you through last minute gatherings to getting dinner on the table.</p>
         
-      <a href="img/Deviled Eggs Recipe.jpg"><img  src="img/Deviled Eggs.jpg" alt="deviled eggs">
-      </a>
-      <div class="desc">Southern Staple-Deviled Eggs</div>
-        
-      <a href="img/Roasted Broccoli Recipe.jpg"><img src="img/roasted broccoli.jpg" alt="roasted broccoli">
-      </a>
-      <div class="desc">Roasted Broccoli</div>
+    <div class="row">
+      <div class="column">
+        <div class="content">
+          <a href="img/Appetizer Recipe.jpg"><img src="img/Appetizer Cream Cheese with Red Pepper Jelly.jpg" alt="Appetizer plated">
+          <h4>Cream Cheese with Red Pepper Jelly</h4>
+          </a>
+      </div>
+    </div>
     
-      <a href="img/Filet of Beef Recipe.jpg"><img src="img/filet of beef.jpg" alt="filet of beef">
-      </a>
-      <div class="desc">Filet of Beef</div>
-
-      <a href="img/Pretzel Hugs Recipe.jpg"><img src="img/pretzel candy.jpg" alt="pretzel candy">
-      </a>  
-      <div class="desc">Pretzel Candy</div>
-
+    <div class="column">
+      <div class="content">
+        <a href="img/Deviled Eggs Recipe.jpg"><img src="img/Deviled Eggs.jpg" alt="deviled eggs">
+        <h4>Deviled Eggs</h4>
+        </a>
+      </div>
+     </div>
+        
+    <div class="column">
+      <div class="content">
+        <a href="img/Roasted Broccoli Recipe.jpg"><img src="img/roasted broccoli.jpg" alt="roasted broccoli">
+        <h4>Roasted Broccoli</h4>
+        </a>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="content">
+        <a href="img/Filet of Beef Recipe.jpg"><img src="img/filet of beef.jpg" alt="filet of beef">
+        <h4>Filet of Beef</h4>
+        </a>
+      </div>
     </div>
 
-</body>
+    <div class="column">
+      <div class="content">
+        <a href="img/Pretzel Hugs Recipe.jpg"><img src="img/pretzel candy.jpg" alt="pretzel candy">
+        <h4> Pretzel Hugs</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+    <!-- END OF GALLERY -->
+
+    <!-- START OF FOOTER -->
+    <footer>
+        <p>&copy; 2020 Vanessa</p>
+    </footer>
+    <!-- END OF FOOTER-->
+  </body>
+    
+    
 </html>
