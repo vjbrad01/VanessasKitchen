@@ -1,7 +1,11 @@
 /*GENERAL*/
+
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: Arial;
     margin: 0px;
+    padding: 20%;
+    background-color: lightgray;
+    
 }
 
 #wrapper {
@@ -15,20 +19,39 @@ a {
 }
 
 h1 {
-    font-size: 1.75em;
-    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
     color: blue;
+    word-break: break-all;
+}
+
+#nav a {
+    text-align: center;
+}
+
+.cookbook {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 h2 {
-    font-size: 0.75em;
+    font-size: 40px;
+    text-align: center;
     margin: -5 0 0;
     color: blue;
 }
 
+p {
+    text-align: center;
+    color: red;
+}
+
 h4 {
     margin: 0 0 1em 0;
-    color: blue;
+    text-align: center;
+    color: #ffff00;
 }
 
 img {
@@ -40,20 +63,9 @@ img {
     box-sizing: border-box;
 }
 
-body {
-    background-color: #f1f1f1;
-    padding:  20px;
-    font-family: Arial;
-}
-
 .main {
-    max-width:  1000px;
+    max-width:  50px;
     margin:  auto;
-}
-
-h1 {
-    font-size: 50px;
-    word-break: break-all;
 }
 
 .row {
@@ -67,7 +79,7 @@ h1 {
 
 .column {
     float: left;
-    width: 25%;
+    width: 20%;
 }
 
 .row:after {
@@ -77,9 +89,10 @@ h1 {
 }
 
 .content{
-    background-color: white;
-    padding: 10px;
+    background-color: red;
+    padding: 1px
 }
+
 /*MEDIA QUERIES*/
 @media screen and (max-width: 900px) {
     .column {
