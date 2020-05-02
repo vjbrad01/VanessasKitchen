@@ -1,11 +1,15 @@
 /*GENERAL*/
 
 body {
+    
     font-family: Arial;
     margin: 0px;
-    padding: 20%;
-    background-color: lightgray;
-    
+/*    padding: 20%;*/
+    background-image(.cookbook);
+}
+
+* {
+    box-sizing: border-box;
 }
 
 #wrapper {
@@ -59,8 +63,17 @@ img {
     max-height: 100%;
 }
 
-* {
-    box-sizing: border-box;
+button {
+    background-color: blue;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
 }
 
 .main {
