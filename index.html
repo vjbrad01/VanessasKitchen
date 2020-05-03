@@ -3,90 +3,74 @@
 <head>
     <meta charset="utf-8">
     <title>Vanessa's Kitchen</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display-swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
 </head>
+    
 <body>
     <!-- START OF HEADER -->
     <header>
-        <!-- LINK THAT LINKS TO HOME PAGE -->
-        <a href="index.html" id="logo">
-          <h1>Vanessa's Kitchen</h1>
-        </a>
-        
-        <nav>
-           <a href="#">Home</a>
-           <a href="#">Tips</a>
-        </nav>
-        
-        <img class="cookbook" src="img/Moms cook book.jpg" alt="Mother's cookbook">
+      <!-- LINK THAT TAKES YOU TO THE HOME PAGE -->
+      <a href="index.html" id="logo">
+        <h1>Vanessa's Kitchen</h1>
+      </a>
+      
+      <!-- NAV BAR -->
+      <nav>
+        <ul>
+          <li>
+            <a href="recipes.html" class="selected">Recipes</a>
+          </li>
+          
+          <li>
+            <a href=tips.html>Cooking Tips</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <!-- END OF HEADER -->
-    
-    
-    <!-- START OF GALLERY -->
-  <div id="main">
-      
-    <h2>Recipes</h2>
-    <p>The cookbook above was a wedding gift to my mother in 1964.  When my mother became ill in 2017 and passed 3 weeks later my father asked me what I wanted of my mothers and before he could finish the question I said I want her cookbook.  I only remember my mom looking up a recipe occasionally in the cookbook, but that cookbook had been around at the start of her little family and the memory of it always being on the kitchen counter was home.</p>
-      
-    <p>The first month after her passing I read that cookbook from cover to cover and along the way I found comfort in all the hand-written notes in the margins of the cookbook and the recipes she had written down on the back of envelopes stuffed between the pages.</p>
-    
-    <p>I, myself, get much joy from cooking.  I love to try new recipes, discover tricks of the trade, and put my own twist on something old.  These 5 recipes will make you a star whether it is having to put a last minute appetizer together becaue that is all the notice your husband gives you about having to take something to the work potluck, all the way to an easy, fun sweet treat and a few recipes in the middle.</p>
-        
-    <div class="row">
-      <div class="column">
-        <div class="content">
-          <a href="img/Appetizer Recipe.jpg"><img src="img/Appetizer Cream Cheese with Red Pepper Jelly.jpg" alt="Appetizer plated">
-          <h4>Cream Cheese with Red Pepper Jelly</h4>
-          </a>
-          <button type="button">Recipe Twist</button>
-      </div>
-    </div>
-    
-    <div class="column">
-      <div class="content">
-        <a href="img/Deviled Eggs Recipe.jpg"><img src="img/Deviled Eggs.jpg" alt="deviled eggs">
-        <h4>Deviled Eggs</h4>
-        </a>
-        <button type="button">Recipe Twist</button>
-      </div>
-    </div>
-        
-    <div class="column">
-      <div class="content">
-        <a href="img/Roasted Broccoli Recipe.jpg"><img src="img/roasted broccoli.jpg" alt="roasted broccoli">
-        <h4>Roasted Broccoli</h4>
-        </a>
-        <button type="button">Recipe Twist</button>
-      </div>
-    </div>
-    
-    <div class="column">
-      <div class="content">
-        <a href="img/Filet of Beef Recipe.jpg"><img src="img/filet of beef.jpg" alt="filet of beef">
-        <h4>Filet of Beef</h4>
-        </a>
-        <button type="button">Recipe Twist</button>
-      </div>
-    </div>
 
-    <div class="column">
-      <div class="content">
-        <a href="img/Pretzel Hugs Recipe.jpg"><img src="img/pretzel candy.jpg" alt="pretzel candy">
-        <h4> Pretzel Hugs</h4>
-        </a>
-        <button type="button">Recipe Twist</button>
-      </div>
+    <!--START OF RECIPE PHOTOS -->
+    <div id="wrapper">
+      <section>
+        <ul id="photos">
+          <li><img src="img/moms cook book.jpg" alt="Mother's cookbook">
+          <p>My mom's 1966 Better Homes and Gardens Cookbook</p>
+          </li>
+          <li>
+            <img src="img/appetizer cream cheese with red pepper jelly.jpg" alt="appetizer on plate">
+            <p>Easiest Appetizer Ever</p>
+            </li>
+          
+          <li>
+            <img src="img/deviled eggS.jpg" alt="deviled eggs">
+            <p>Southern Staple</p>
+          </li>
+          
+          <li>
+            <img src="img/roasted broccoli.jpg" alt="roasted broccoli">
+            <p>Roasted Broccoli</p>
+          </li>
+            
+          <li>
+            <img src="img/filet of beef.jpg" alt="filet of beef">
+            <p>Filet of Beef</p>
+          </li>
+          
+          <li>
+            <img src="img/pretzel candy.jpg" alt="filet of beef">
+            <p>Filet of Beef</p>
+          </li>
+        </ul>
+      </section>
     </div>
-  </div>
-    <!-- END OF GALLERY -->
+    <!-- END OF RECIPE PHOTOS -->
 
-    <!-- START OF FOOTER -->
-    <footer>
+     <!-- START OF FOOTER -->
+     <footer>
         <p>&copy; 2020 Vanessa</p>
     </footer>
     <!-- END OF FOOTER-->
-  </body>
-    
+</body>
     
 </html>

@@ -1,0 +1,167 @@
+/*GENERAL*/
+
+body {
+    
+    font-family: Arial;
+    margin: 0px;
+    background-color: white;
+}
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 300;
+    color: blue;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 300;
+    color: blue;
+}
+
+h4 {
+    font-size: 0.75em;
+    font-weight: 300;
+    color: blue;
+}
+img {
+    max-width: 100%;
+}
+
+/*HEADER*/
+
+header {
+    float: left;
+    width: 100%;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    background: lightgray;
+}
+
+#logo {
+    text-align: center;
+}
+
+/*NAVBAR*/
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    padding: 15px 10px;
+}
+
+/*FOOTER*/
+
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    color: blue;
+    padding: 50px 0 0 0;
+    clear: both;
+}
+
+/*HOME PAGE*/
+#photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#photos li {
+    list-style: none;
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: red;
+    color: yellow;
+}
+
+#photos li p {
+    margin: 0;
+    padding: 5%;
+    font-size: 1em;
+    text-align: center;
+}
+
+/*LINKS STYLING*/
+
+a {
+    color: blue;
+}
+
+nav a:visited {
+    color: blue;
+}
+
+nav a:hover,
+nav a.selected {
+    color:  red;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 480px) {
+    
+    #photos li {
+        width: 28.3333%;
+    }
+    
+    #photos li-nth-child(4n) {
+        clear: left;
+}
+
+}
+
+@media screen and (min-width: 660px){
+
+    #logo {
+        float: left;
+        margin-left: 5%;
+        text-align: left;
+        width: 45%;
+    }
+    
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 1px;
+    }
+    
+    nav {
+        background: none;
+        float: right;
+        font-size:  1.25em;
+        text-align: right;
+        width: 45%;
+        margin: 40px 0 0;
+    }
+    
+    header {
+        border-bottom: 5 px solid yellow;
+        margin-bottom: 60px;
+    }
+    
+}
