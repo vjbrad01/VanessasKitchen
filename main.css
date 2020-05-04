@@ -97,6 +97,7 @@ footer {
 }
 
 #photos li {
+    border: none;
     list-style: none;
     float: left;
     width: 45%;
@@ -113,14 +114,16 @@ footer {
 }
 
 #photos button {
-    background-color: blue;
     border: none;
-    color: darkgray;
-    padding: 15%;
+    line-height: 1;
+    padding: 25px 25px;
+    font-size: 1em;
     text-align: center;
+    color: white;
+    background-color: blue;
     text-decoration: underline;
     display: inline-block;
-    font-size: 1em;
+    
 }
 
 /*ABOUT PAGE*/
@@ -135,7 +138,7 @@ footer {
     border: none;
     outline: none;
     background-color: red;
-    color; white;
+    color: white;
     cursur: pointer;
     padding: 15px;
     border-radius: 10px;
