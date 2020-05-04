@@ -24,19 +24,27 @@ h1 {
     color: blue;
 }
 
-h3 {
+h3,
+h4 {
+    margin: 0 0 1em 0;
+}
+/*
     font-size: 1em;
     font-weight: 300;
     color: blue;
-}
+*/
 
+/*
 h4 {
     font-size: 0.75em;
     font-weight: 300;
     color: blue;
 }
+*/
+
 img {
     max-width: 100%;
+    height: auto;
 }
 
 /*HEADER*/
@@ -108,10 +116,6 @@ footer {
 }
 
 /*LINKS STYLING*/
-
-a {
-    color: blue;
-}
 
 nav a:visited {
     color: blue;
