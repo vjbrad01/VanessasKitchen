@@ -20,31 +20,21 @@ a {
 
 h1 {
     font-size: 2em;
-    font-weight: 300;
+    font-weight: 700;
     color: blue;
 }
 
 h3,
 h4 {
-    margin: 0 0 1em 0;
-}
-/*
     font-size: 1em;
-    font-weight: 300;
-    color: blue;
-*/
-
-/*
-h4 {
-    font-size: 0.75em;
-    font-weight: 300;
+    font-weight: 600;
+    margin: 0 0 1em 0;
     color: blue;
 }
-*/
 
 img {
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
 }
 
 /*HEADER*/
@@ -82,19 +72,26 @@ nav a {
     padding: 15px 10px;
 }
 
+p {
+    margin: 0 10px;
+    padding: 15px 10px;
+    
+}
+
+
 /*FOOTER*/
 
 footer {
     text-align: center;
-    font-size: 0.75em;
+    font-size: 1em;
     color: blue;
     padding: 50px 0 0 0;
     clear: both;
 }
 
 /*HOME PAGE*/
+
 #photos {
-    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -110,9 +107,43 @@ footer {
 
 #photos li p {
     margin: 0;
-    padding: 5%;
+    padding: 15%;
     font-size: 1em;
     text-align: center;
+}
+
+#photos button {
+    background-color: blue;
+    border: none;
+    color: darkgray;
+    padding: 15%;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 1em;
+}
+
+/*ABOUT PAGE*/
+
+/*COOKING HACKS PAGE*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom:  20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: red;
+    color; white;
+    cursur: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#myBtn:hover {
+    background-color: yellow;
 }
 
 /*LINKS STYLING*/
@@ -131,13 +162,11 @@ nav a.selected {
 @media screen and (min-width: 480px) {
     
     #photos li {
-        width: 28.3333%;
+        width: 15%;
     }
     
     #photos li-nth-child(4n) {
         clear: left;
-}
-
 }
 
 @media screen and (min-width: 660px){
