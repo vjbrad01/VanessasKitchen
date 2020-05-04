@@ -104,8 +104,8 @@ footer {
     float: left;
     width: 45%;
     margin: 2.5%;
-    background-color: red;
-    color: yellow;
+    background-color: darkgray;
+    color: blue;
 }
 
 #photos li p {
