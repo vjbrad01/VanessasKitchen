@@ -112,16 +112,16 @@ footer {
     color: blue;
 }
 
-COOKING HACKS PAGE
+/*COOKING HACKS PAGE*/
 #myBtn {
     display: none;
     position: fixed;
-    bottom:  20px;
-    right: 30px;
+    bottom:  25px;
+    right: 5px;
     z-index: 99;
     border: none;
     outline: none;
-    background-color: red;
+    background-color: blue;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -131,6 +131,7 @@ COOKING HACKS PAGE
 
 #myBtn:hover {
     background-color: yellow;
+    color: black;
 }
 
 /*LINKS STYLING*/

@@ -1,5 +1,7 @@
+//Get button
 mybutton = document.getElementById("myBtn");
 
+//Scroll down show button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -10,6 +12,7 @@ function scrollFunction() {
     }
 }
 
+//Scroll to top when button clicked
 function topFunction() {
     document.body.scrollTop = 0; 
     document.documentElement.scrollTop = 0;
