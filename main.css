@@ -78,7 +78,6 @@ p {
     
 }
 
-
 /*FOOTER*/
 
 footer {
@@ -102,8 +101,7 @@ footer {
     float: left;
     width: 45%;
     margin: 2.5%;
-    background-color: darkgray;
-    color: blue;
+    background-color: lightgray;
 }
 
 #photos li p {
@@ -111,24 +109,11 @@ footer {
     padding: 15%;
     font-size: 1em;
     text-align: center;
+    color: blue;
 }
 
-#photos button {
-    border: none;
-    line-height: 1;
-    padding: 25px 25px;
-    font-size: 1em;
-    text-align: center;
-    color: white;
-    background-color: blue;
-    text-decoration: underline;
-    display: inline-block;
-    
-}
-
-/*ABOUT PAGE*/
-
-/*COOKING HACKS PAGE*/
+/*
+COOKING HACKS PAGE
 #myBtn {
     display: none;
     position: fixed;
@@ -139,7 +124,7 @@ footer {
     outline: none;
     background-color: red;
     color: white;
-    cursur: pointer;
+    cursor: pointer;
     padding: 15px;
     border-radius: 10px;
     font-size: 18px;
@@ -148,6 +133,7 @@ footer {
 #myBtn:hover {
     background-color: yellow;
 }
+*/
 
 /*LINKS STYLING*/
 
@@ -196,7 +182,7 @@ nav a.selected {
     }
     
     header {
-        border-bottom: 5 px solid yellow;
+        border-bottom: 5px;
         margin-bottom: 60px;
     }
     
